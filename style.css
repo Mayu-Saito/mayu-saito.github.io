@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDPGothic&family=Montserrat+Subrayada:wght@400;700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image   : url(images/x-diamond-fill.svg);
+    background-size    : 120px;
+    background-position: center;
+}
+
+* {
+    font-family: "Open Sans", "BIZ UDPGothic", sans-serif;
+    line-height: 1.5;
+}
+
+nav {
+    background-color: #3D1311 !important;
+}
+
+a {
+    color                : #B6530E !important;
+    text-decoration-color: #B6530E !important;
+}
+
+a:hover {
+    color                : #FD9735 !important;
+    text-decoration-color: #FD9735 !important;
+}
+
+section {
+    padding-top: 88px;
+}
+
+h1, h2, h3 {
+    color      : #3D1311 !important;
+    font-family: "Montserrat Subrayada", sans-serif;
+}
+
+.card {
+    border-color: #3D1311 !important;
+}
+
+.card-title {
+    color: #3D1311 !important;
+}
+footer {
+    background-color: #3D1311;
+}
