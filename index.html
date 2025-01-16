@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="ja" class="h-100">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,7 +12,40 @@
         >
         <title>MAYU SAITO</title>
     </head>
-    <body>
-        
+    <body class="h-100 d-flex flex-column">
+        <header>
+            <nav class="navbar navbar-expand-sm fixed-top bg-dark" data-bs-theme="dark">
+                <div class="container">
+                    <a class="navbar-brand text-white my-2" href="#TOP">MAYU SAITO</a>
+                    <button
+                        class         ="navbar-toggler"
+                        type          ="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbar"
+                        aria-controls ="navbar"
+                        aria-expanded ="false"
+                    >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item"><a class="nav-link text-white" href="#TOP"     >TOP</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#PROFILE" >PROFILE</a></li>
+                            <li class="nav-item"><a class="nav-link text-white" href="#FAVORITE">FAVORITE</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <main class="flex-shrink-0 flex-grow-1">
+
+        </main>
+
+        <footer class="footer mt-auto py-5 bg-dark-subtle">
+            <div class="container d-flex flex-wrap align-items-center justify-content-center">
+                ©2025 MAYU SAITO. All rights reserved.
+            </div>
+        </footer>
     </body>
 </html>
