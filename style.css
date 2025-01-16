@@ -53,6 +53,12 @@ h1 {
 .card-title {
     color: #3D1311 !important;
 }
+
+.pagetop-btn {
+    bottom: 40px;
+    right : 40px;
+}
+
 footer {
     background-color: #3D1311;
 }
